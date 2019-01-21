@@ -1,6 +1,6 @@
 {% extends "bootstrap/base.html" %}
 
-{% block title %} Flasky {%endblock%}
+{% block title %} Flask {% endblock %}
 
 {% block head %}
     {{ super() }}
@@ -29,7 +29,7 @@
 {% endblock %}
 
 {% block content %}
-<div class="container">
-    {% block page_content %}{% endblock %}
-</div>
+    <div class="container">
+        {% block page_content %}{% endblock %}
+    </div>
 {% endblock %}
